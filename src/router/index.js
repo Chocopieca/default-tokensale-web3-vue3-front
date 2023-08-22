@@ -7,7 +7,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'ComponentsPage',
-      component: defineAsyncComponent(() => import('@/views/ComponentsPage.vue'))
+      component: () => import('../views/ComponentsPage.vue')
     },
   ]
 })
