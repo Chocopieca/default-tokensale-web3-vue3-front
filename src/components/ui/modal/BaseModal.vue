@@ -19,7 +19,7 @@
 
 <script>
 import { useModalStore } from "@/stores/modal";
-import crossInlineIcon from "@/assets/icons/cross-inline-icon.svg";
+import crossInlineIcon from "@/assets/icon/cross-inline-icon.svg";
 import {defineComponent} from "vue";
 
 export default defineComponent({

@@ -35,7 +35,7 @@ export default defineComponent({
   },
   computed: {
     iconPath() {
-      return `url(../src/assets/icon/${this.iconName})`;
+      return "url(" + new URL(`../../../assets/icon/${this.iconName}`, import.meta.url) + ")";
     },
     getIconColor() {
       return this.iconColor.color;

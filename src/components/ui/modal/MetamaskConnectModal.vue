@@ -19,7 +19,7 @@
 import {defineComponent, computed} from "vue";
 import {useWeb3Store} from "@/stores/web3";
 import {useModalStore} from "@/stores/modal";
-import metamaskImg from "@/assets/img/metamask.svg";
+import metamaskImg from "@/assets/img/metamask_icon.svg";
 
 export default defineComponent({
   name: "MetamaskConnectModal",
