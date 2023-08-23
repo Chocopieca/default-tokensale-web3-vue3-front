@@ -5,7 +5,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_BASE_URL),
   routes: [
     {
-      path: '/',
+      path: '/default-tokensale-web3-vue3-front/',
       name: 'ComponentsPage',
       component: () => import('../views/ComponentsPage.vue')
     },
