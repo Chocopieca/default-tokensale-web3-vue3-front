@@ -1,0 +1,1 @@
+import{_ as o,f as s,o as a,c as n,n as r}from"./index-4a9fbba2.js";const t=s({name:"BaseDivider",props:{color:{type:String,default:"#FFF"}}});function d(e,c,_,i,l,p){return a(),n("div",{class:"header-divider",style:r({background:e.color})},null,4)}const u=o(t,[["render",d],["__scopeId","data-v-ed700744"]]);export{u as default};
